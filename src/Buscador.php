@@ -1,6 +1,6 @@
 <?php
 
-//namespace Nando\BuscadorDeCursos;
+namespace Nando\BuscadorDeCursos;
 
 use GuzzleHttp\ClientInterface;
 use Symfony\Component\DomCrawler\Crawler;
