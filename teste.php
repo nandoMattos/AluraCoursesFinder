@@ -23,7 +23,7 @@ $client = new Client([
 
 $crawler = new Crawler();
 $buscador = new Buscador($client, $crawler);
-$cursos = $buscador->buscar ('/cursos-online-programacao/java');
+$cursos = $buscador->buscar('/cursos-online-programacao/java');
 
 foreach ($cursos as $curso){
     echo $curso->textContent . PHP_EOL;    // Já que o $curso nao é uma string, e sim um elemento do DOM, entao preciso fazer um textContent
