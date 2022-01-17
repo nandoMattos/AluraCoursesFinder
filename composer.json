@@ -50,5 +50,9 @@
         "cs" : "Check starndards PSR12 with PHP_CodeSniff",
         "phan" : "Check errors with PHP_Phan",
         "check" : "Run phan, cs and test"
-    }
+    },
+
+    "license": "GPL-3.0",
+
+    "bin": "buscarCursos.php"
 }
