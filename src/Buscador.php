@@ -27,7 +27,7 @@ class Buscador
         $cursos = [];
 
         foreach($elementosCursos as $elemento){
-            $cursos[] = $elemento;  // Não preciso do textConten pois já é um array de string
+            $cursos[] = $elemento->textContent;  // Não preciso do textConten pois já é um array de string
         }
         return $cursos;
     }
