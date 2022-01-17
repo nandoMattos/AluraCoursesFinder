@@ -27,7 +27,7 @@ $buscador = new Buscador($client, $crawler);
 $cursos = $buscador->buscar('/cursos-online-programacao/java');
 
 foreach ($cursos as $curso){
-   exibir($mensagem);    // Já que o $curso nao é uma string, e sim um elemento do DOM, entao preciso fazer um textContent
+   exibir($curso);    // Já que o $curso nao é uma string, e sim um elemento do DOM, entao preciso fazer um textContent
 
 }
 
